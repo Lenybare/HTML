@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Caveat Brush', cursive;
+    padding: 0;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #a0c4b6;
+}
+
+header {
+    background: url("../img/woddPlank.jpg");
+    width: 100%;
+    height: 80vh;
+    padding: 0;
+    margin: 0;
+    border-radius: 15px 15px 0 0;
+}
+
+.inline {
+    display: in;
+}
+
+.rose {
+    /* background-color: rgba(216, 112, 147, 0.514); */
+    position: relative;
+    bottom: 300px;
+    left: 680px;
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-width: 120px;
+    border-color: transparent transparent #d4276c9f;
+    transform: rotate(45deg);
+
+}
+
+.enligne {
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+span::after {
+    content: "_";
+    position: relative;
+    right: 10px;
+    top: 2px;
+    width: 50px;
+    font-size: 90%;
+}
+
+span {
+    text-transform: uppercase;
+    font-size: 70%;
+    position: relative;
+    bottom: 5px;
+}
+
+.cesoir {
+    text-transform: uppercase;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 250%;
+    padding-top: 3%;
+}
+
+.rectangleV2 {
+    background-color: palevioletred;
+    width: 3%;
+    height: 15px;
+    margin-left: 7%;
+}
+
+.nav {
+    position: relative;
+    bottom: 60px;
+    margin-left: 2%;
+    text-transform: uppercase;
+}
+
+nav ul {
+    padding: 0;
+    font-family: 'Gluten', cursive;
+    font-size: 100%;
+    float: right;
+}
+
+li {
+    float: right;
+    list-style: none;
+    margin-right: 3%;
+    /* display: inline-block; */
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header>img {
+    width: 15%;
+    margin: 5% 40% 0;
+}
+
+.floatleft {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.ourstory {
+    width: 35%;
+    background: url("../img/pattern.jpg");
+    height: 495px;
+    float: left;
+}
+
+.floatleft>h1 {
+    text-transform: uppercase;
+}
+
+.ourstory {
+    text-align: center;
+}
+
+.premiereligne img {
+    width: 65%;
+    height: 495px;
+    rotate: y 180deg;
+}
+
+.deuxiemeligne>img,
+.deuxiemeligne>div {
+    float: left;
+}
+
+.deuxiemeligne>img {
+    width: 65%;
+    height: 495px;
+    float: left;
+}
+
+.deuxiemeligne>div>img {
+    width: 10%;
+    float: left;
+}
+
+.deuxiemeligne>div>p {
+    width: 100%;
+    text-align: center;
+}
+
+.deuxiemeligne>div {
+    width: 35%;
+    height: 495px;
+    background: url("../img/pattern.jpg");
+}
+
+.troisiemeligne>div {
+    float: left;
+    width: 35%;
+    background: url("../img/pattern.jpg");
+    height: 495px;
+}
+
+.troisiemeligne>img {
+    float: left;
+    width: 65%;
+    height: 495px;
+}
+
+.troisiemeligne>div>img {
+    width: 15%;
+}
+
+.imgseul,
+.imgseul>img {
+    width: 100%;
+    height: 550px;
+}
+
+footer>div {
+    background: url("../img/pattern.jpg");
+    width: 100%;
+    height: 450px;
+    margin-bottom: 5%;
+    border-radius: 0 0 15px 15px;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 250%;
+}
+
+.rectangle {
+    width: 8%;
+    height: 8px;
+    background-color: palevioletred;
+    position: relative;
+    bottom: 20px;
+    left: 245px;
+}
+
+.ourstory>div>p {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.ourstory>div>h2 {
+    margin-top: 25%;
+}
+
+.ourstory>div>div:last-child {
+    margin-top: 5%;
+    color: rgb(170, 110, 120);
+}
+
+.deuxiemeligne>div>img {
+    width: 30%;
+    margin: 15% 55% auto 35%;
+}
+
+.deuxiemeligne>div>div>p {
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+
+.deuxiemeligne>div>div:last-child {
+    text-transform: uppercase;
+    color: rgb(170, 110, 120);
+    margin-top: 5%;
+}
+
+.troisiemeligne>div>img {
+    width: 25%;
+    margin-left: 37%;
+    margin-top: 10%;
+}
+
+.troisiemeligne>div>h2 {
+    margin-top: 0;
+}
+
+.troisiemeligne>div>p {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.troisiemeligne>div>div {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(170, 110, 120);
+    margin-top: 5%;
+}
+
+.cesoirBas {
+    text-transform: uppercase;
+    margin-left: 5%;
+    font-size: 250%;
+    padding-top: 3%;
+}
