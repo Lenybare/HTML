@@ -1,0 +1,14 @@
+body {
+    margin: 0 auto;
+    width: 80%;
+}
+table {
+    text-align: center;
+}
+tbody > tr > td:first-child {
+    color: gray;
+}
+tbody > tr > td {
+    margin-bottom: 10%;
+    margin-top: 10%;
+}

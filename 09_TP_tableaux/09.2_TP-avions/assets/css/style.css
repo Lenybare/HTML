@@ -1,0 +1,27 @@
+thead,
+tfoot {
+    background-color: aquamarine;
+}
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+th {
+    width: 20%;
+}
+table {
+    text-align: center;
+    border: 3px solid blue;
+}
+table {
+    border-collapse: collapse;
+}
+td[rowspan] {
+    background-color: aquamarine;
+}
+.dotted  {
+    border-left: 2px dotted rgb(0, 0, 0);
+}
+.solid {
+    border: 1px solid blue;
+}

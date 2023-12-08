@@ -1,0 +1,13 @@
+body {
+    width: 40%;
+    margin: 0 auto;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+table > thead {
+    background-color: blue;
+}
+h1 {
+    font-size: 250%;
+}

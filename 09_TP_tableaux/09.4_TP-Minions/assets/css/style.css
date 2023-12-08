@@ -1,0 +1,62 @@
+
+td {
+    width: 30px;
+    height: 30px;
+}
+table {
+    margin-top: 10%;
+    border-collapse: collapse;
+}
+body {
+    width: 80%;
+    margin: 10px auto;
+}
+.jaune {
+    background-color: yellow;
+}
+.noir {
+    background-color: black;
+}
+.blanc {
+    background-color: white;
+}
+.gris {
+    background-color: gray;
+}
+.bleu {
+    background-color: blue;
+}
+.marronFonce {
+    background-color: brown;
+}
+.marronClair {
+    background-color: rgb(207, 125, 125);
+}
+.bege {
+    background-color: beige;
+}
+.begeFonce {
+    background-color: rgb(190, 190, 172);
+}
+.vert {
+    background-color: green;
+}
+.vertClaire {
+    background-color: rgb(18, 189, 18);
+}
+.vertTrsClaire {
+    background-color: rgb(37, 255, 37);
+}
+.begeClaire {
+    background-color: rgb(224, 224, 224);
+}
+.bordo {
+    background-color: rgb(255, 0, 0);
+}
+.bordoDif {
+    
+    background-color: rgb(255, 69, 69);
+}
+.marronDif {
+    background-color: rgb(146, 63, 63);
+}
